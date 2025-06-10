@@ -1,0 +1,6 @@
+## Responsible in creating my Machine Learning application as package
+##python pipi
+pandas
+numpy 
+seaborn
+-e .
