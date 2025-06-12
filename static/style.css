@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body with soft purple background */
+body {
+  background: linear-gradient(135deg, #6a0dad, #9b30ff);
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Form Container */
+.login {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 16px;
+  width: 95%;
+  max-width: 880px;
+  max-height: 95vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 25px rgba(106, 13, 173, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 35px rgba(106, 13, 173, 0.5);
+}
+
+/* Headings */
+.login h1 {
+  text-align: center;
+  color: #4a148c;
+  font-size: 28px;
+  margin-bottom: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+  text-align: center;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #2c2c2c;
+}
+
+/* Inputs and dropdowns */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  background-color: #f9f5ff;
+  transition: all 0.3s ease;
+}
+
+.form-control:hover {
+  border-color: #a020f0;
+  background: #f3ecff;
+}
+
+.form-control:focus {
+  border-color: #7e57c2;
+  outline: none;
+  box-shadow: 0 0 8px rgba(126, 87, 194, 0.5);
+}
+
+/* Button */
+.btn-primary {
+  background-color: #6a0dad;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #580e97;
+  transform: scale(1.03);
+}
+
+/* Result Box */
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #1b5e20;
+  background-color: #e7ffe7;
+  padding: 10px;
+  border-radius: 8px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
