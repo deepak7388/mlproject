@@ -219,7 +219,8 @@ If no model achieves a decent threshold (e.g., 0.6), training fails.
 
 ## 📷 10. Sample Output
 
-(Add a screenshot here showing the form and prediction result in your actual deployment)
+![alt text](<Screenshot 2025-06-16 150219.png>)
+![alt text](<Screenshot 2025-06-16 150243.png>)
 
 ## 📌 11. Features to Extend
 
