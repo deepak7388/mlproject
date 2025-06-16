@@ -87,28 +87,39 @@ Edit
 
 ### Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/your-username/student-performance-analysis.git
 cd student-performance-analysis
-Step 2: Create Virtual Environment
+
+### Step 2: Create Virtual Environment
+
 bash
 Copy
 Edit
 python -m venv venv
+
 # For Windows:
+
 venv\Scripts\activate
+
 # For macOS/Linux:
+
 source venv/bin/activate
-Step 3: Install Required Libraries
+
+### Step 3: Install Required Libraries
+
 bash
 Copy
 Edit
 pip install -r requirements.txt
-🧠 6. Model Training
-Step 1: Download Dataset
+
+## 🧠 6. Model Training
+
+### Step 1: Download Dataset
+
 Download the dataset from Kaggle and place it at an appropriate location like notebooks/data/StudentsPerformance.csv.
 
-Step 2: Train the Model
+### Step 2: Train the Model
+
 In your training pipeline (e.g., train_pipeline.py), make sure the following steps are covered:
 
 Load dataset
@@ -135,7 +146,8 @@ artifacts/preprocessor.pkl
 
 These will be used for prediction.
 
-🔮 7. Prediction Pipeline
+## 🔮 7. Prediction Pipeline
+
 📄 File: predict_pipeline.py
 Handles:
 
@@ -166,7 +178,9 @@ cpp
 Copy
 Edit
 http://127.0.0.1:5000/
-🖼️ 8. Frontend Form - home.html
+
+### 🖼️ 8. Frontend Form - home.html
+
 A styled Bootstrap-based HTML form for user input
 
 User fills out:
@@ -190,20 +204,25 @@ Example Form Inputs:
 html
 Copy
 Edit
+
 <form action="/" method="post">
     <input name="gender" ... />
     <input name="writing_score" ... />
     ...
 </form>
-🧪 9. Evaluation Metrics
+
+## 🧪 9. Evaluation Metrics
+
 R² Score is used to evaluate and select the best model.
 
 If no model achieves a decent threshold (e.g., 0.6), training fails.
 
-📷 10. Sample Output
+## 📷 10. Sample Output
+
 (Add a screenshot here showing the form and prediction result in your actual deployment)
 
-📌 11. Features to Extend
+## 📌 11. Features to Extend
+
 Add Docker support
 
 Deploy on Render or AWS EC2
@@ -214,7 +233,8 @@ Add CI/CD pipeline with GitHub Actions
 
 Track model versions with MLflow
 
-📃 12. requirements.txt (Sample)
+## 📃 12. requirements.txt (Sample)
+
 txt
 Copy
 Edit
@@ -226,14 +246,16 @@ catboost
 flask
 Adjust as per your final environment
 
-👨‍💻 13. Author
+## 👨‍💻 13. Author
+
 Chandra Prakash
 This project was built as part of a self-initiated ML deployment practice.
 
-📬 Contact
+## 📬 Contact
+
 Email: deepak79232@gmail.com
 GitHub: https://github.com/deepak7388
 
-🏁 License
+### 🏁 License
+
 This project is open-source and available under the MIT License.
-```
